@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+
+.header {
+    height: 100vh;
+}
+
+.navabar-style {
+    box-shadow: 0 5px 10px #aaa;
+    text-transform: uppercase;
+}
+
+.logo {
+    height: 48px;
+    padding: 2px 10px;
+}
+
+.icon-bar {
+    background-color: black;
+}
+
+li a {
+    color: black;
+}
+
+a.btn {
+    margin: 20px 10px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+h1 {
+    color: brown;
+}
+
+p.heading {
+    color: rebeccapurple;
+}
+
+.btn-first {
+    background-color: darkcyan;
+    color: white;
+}
+
+.btn-second {
+    background-color: darkcyan;
+    color: white;
+}
+
+a.btn:hover {
+    background-color: azure;
+    border: none;
+    color: blue;
+    box-shadow: 5px 5px 10px #999;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
+
+.banner-image,
+.banner-info {
+    margin: 30px 0;
+}
+
+p.songs {
+    color: blue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
